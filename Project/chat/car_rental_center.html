@@ -26,7 +26,7 @@ function myFunction() {
                         <li class="card-text"><b>mileage: </b>{{car.Mileage}}</li>
                         <li class="card-text"><b>fuel_type: </b>{{car.FuelType}}</li>
                         <li class="card-text"><b>seats: </b>{{car.Seats}}</li>
-                        <li class="card-text"><b>price_per_day: </b>₹{{car.PricePerDay}}0</li>
+                        <li class="card-text"><b>price_per_day: </b>${{car.PricePerDay}}</li>
                         <li class="card-text"><b>availability: </b>{{car.Availability}}</li>
                         <li class="card-text"><b>description: </b>{{car.Description}}</li>
                     </ul>
@@ -35,8 +35,8 @@ function myFunction() {
         </div>
 
     </div>
-</div><p align="right"style="margin-right:100px;"><button onclick="myFunction() "class="btn btn-primary" style="width: 100px; height: 100px";>Chat with us</button></p><br><br>
+</div>
 </div>
 <script type="text/javascript" src="../js/car_rental_center.js"></script>
-
+<button onclick="myFunction()">Try it</button>
 </body>

@@ -95,16 +95,16 @@ $_SESSION["total"]=$total;
                     <option selected>VISA</option>
                     <option>MasterCard</option>
                     <option>PayPal</option>
-                    <option>Bpay</option>
+                    <option>Rupay</option>
                     <option>Direct deposit</option>
                 </select>
             </div>
         </div>
-        <h3>You are  to pay $<?php echo $total;?></h3>
+        <h3>You are  to pay ₹<?php echo $total;?></h3>
         <div class="form-group row">
             <div class="col-sm-12 text-right">
                 <a href="../product/car_rental_center.html" target="mainFrame" class="btn btn-primary">Continue Selection</a>
-                <button type="submit" class="btn btn-primary">Booking</button>
+                <button type="submit" class="btn btn-primary">Book my car</button>
             </div>
         </div>
     </form>
